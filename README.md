@@ -16,8 +16,8 @@
 
 创建一个命名空间KV数据库 随意名字
 
-绑定KV数据库，在设置 -> 变量，命名空间绑定：telegrambot -> 选择设置的名字
+绑定KV数据库，变量名称：telegrambot ，KV命名空间：选择设置的数据库名字
 
-编辑代码 将worker代码全部复制替换原来的代码 保存部署
+编辑代码 将worker代码全部复制替换原来的代码，保存部署（注意先设置好变量，KV数据库之后在部署代码，不然有可能报错代码部署不了）
 
-url后面加上/registerWebhook，进行 webhook注册 (unRegisterWebhoo 取消注册)
+url后面加上/registerWebhook，进行 webhook注册 (unRegisterWebhoo 取消注册) 出现OK表示成功！
