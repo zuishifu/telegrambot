@@ -10,13 +10,13 @@
 
 增加一个ENV_BOT_TOKEN变量，值为向官方 bot申请的Bot API Token
 
-增加一个ENV_BOT_SECRET变量，数值为uuid
+增加一个ENV_BOT_SECRET变量，SECRET值为uuid
 
-增加一个ENV_ADMIN_UID变量，数值为用户id
+增加一个ENV_ADMIN_UID变量，值为用户id
 
 创建一个命名空间KV数据库 随意名字
 
-绑定KV数据库，变量名称：telegrambot ，KV命名空间：选择设置的数据库名字
+绑定KV数据库，变量名称：nfd ，KV命名空间：选择设置的数据库名字
 
 编辑代码 将worker代码全部复制替换原来的代码，保存部署（注意先设置好变量，KV数据库之后在部署代码，不然有可能报错代码部署不了）
 
