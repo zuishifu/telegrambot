@@ -16,7 +16,7 @@
 
 创建一个命名空间KV数据库 随意名字
 
-绑定KV数据库，变量名称：使用worker.js为telegrambot，使用jiushenworker.js为nfd（二选一） ，KV命名空间：选择设置的数据库名字
+绑定KV数据库，变量名称：使用worker.js为telegrambot，使用jiushen.js或者jiushenmogai.js为nfd（代码三选一） ，KV命名空间：选择设置的数据库名字
 
 编辑代码 将worker代码全部复制替换原来的代码，保存部署（注意先设置好变量，KV数据库之后在部署代码，不然有可能报错代码部署不了）
 
