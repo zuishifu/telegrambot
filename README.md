@@ -20,6 +20,6 @@
 
 编辑代码 将worker代码全部复制替换原来的代码，保存部署（注意先设置好变量，KV数据库之后在部署代码，不然有可能报错代码部署不了）
 
-url后面加上/registerWebhook，进行 webhook注册 (unRegisterWebhoo 取消注册) 出现OK表示成功！
+worker的url后面加上/registerWebhook，进行 webhook注册 (unRegisterWebhoo 取消注册) 出现OK表示成功！
 
 测试时先点开自己机器人点一下开始，就能正常接收消息了
